@@ -1,0 +1,3 @@
+include cryptoExchange/static
+include cryptoExchange/templates
+global-exclude *.pyc

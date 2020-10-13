@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+cryptoExchange.egg-info/PKG-INFO
+cryptoExchange.egg-info/SOURCES.txt
+cryptoExchange.egg-info/dependency_links.txt
+cryptoExchange.egg-info/not-zip-safe
+cryptoExchange.egg-info/requires.txt
+cryptoExchange.egg-info/top_level.txt

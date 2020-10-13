@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.js-odoo {
+    font-family: 'Inconsolata';
+    font-weight: bold;
+    font-size: 16vmin;
+    fill: #3369ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ input {
+     outline: none;
+ }
+
+ h1 {
+     color: #8533FF;
+ }

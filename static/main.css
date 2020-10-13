@@ -1,0 +1,120 @@
+html {
+    background-color: #e6e6e9;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead tr {
+    background-color: #3369ff;
+    color: #ffffff;
+    text-align: left;
+}
+
+td, th {
+    text-align: left;
+    padding: 15px 18px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+      color: #3369ff;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul{
+  justify-content: space-between;
+  align-items: center;
+}
+
+  /* Style the links inside the navigation bar */
+.navbar a {
+    background-color: #3369ff;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.button6{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+.button6:active{
+    top:0.1em;
+}
+@media all and (max-width:30em){
+    .button6{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+
+.bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+}
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+
+.btn-row {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
